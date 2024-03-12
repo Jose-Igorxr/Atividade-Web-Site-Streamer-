@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav>
+        <!-- Logotipo do site -->
+        <a href="#" class="logo">
+            <h1>
+                <span class="da">IGOR</span><span class="live">LIVES</span><span class="alien">&#x1f47e;</span>
+            </h1>
+        </a>
+
+        <!-- Tag de lista para itens de navegação -->
+        <ul>
+            <li class="nav-item">
+            <a href="#about" class="nav-link" id="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+            <a href="#stars" class="nav-link" id="nav-link">Estrelas</a>
+            </li>
+            <li class="nav-item">
+            <a href="#stakeholders " class="nav-link" id="nav-link">Apoiadores</a>
+            </li>
+            <li class="nav-item">
+            <a href="#subscribe " class="nav-link" id="nav-link">Assinar</a>
+            </li>
+        </ul>
+        
+        <!-- Criação do menu hamburguer(Menu que ao ser pressionado mostra uma seção de várias linhas horizontais empilhadas umas sobre as outras) -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+    </nav>
+
+    <!-- Seção para a introdução do player de vídeo -->
+    <section class="hero">
+        <div class="intro-text">
+
+            <!-- Tags de texto genéricas para responsividade usadas em h1 -->
+            <h1>
+                <span class="hear"> Assista nossas lives </span> <br/>
+                <span class="connecting"> Conecte-se </span>
+            </h1>
+
+            <!-- Texto normal -->
+            <p>
+                Uma plataforma online de streamming de games. <br/>
+                Com momentos especiais com games nostálgicos.
+            </p>
+
+            <!-- Dois botões em formas de link(btn e purple, e btn e grey, são 4 classes diferentes, 2 em cada "a") -->
+            <a class="btn purple" href="#">saiba mais</a>
+            <a class="btn grey" href="#">assinar</a>
+
+        </div>
+
+        <!-- Criação de div para customização da tag "iframe" usada para implementação de um player, no caso do youtube -->
+        <div class="i-frame">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4TOycLs_7oE" title="YouTube video player"
+        frameborder="10"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture "></iframe>
+
+        </div>
+
+        </section>
+
+        <!-- Seção para o "sobre" com apenas h3 e p -->
+        <section class="about" id="about">
+            <h3>Assista as transmissões</h3>
+
+            <p>
+            Transmissões 24/7, nunca fique sem diversão
+            </p>
+
+            <h3>Somente os melhores</h3>
+
+            <p>
+            Assista os melhores streamers do Brasil em um só local
+            </p>
+
+        </section>
+           
+    
+</body>
+</html>
